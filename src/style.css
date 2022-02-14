@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(fondo-watercolour.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: Verdana;
+  background-attachment: fixed;
+}
+.div-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn{
+    text-align: center;
+    background-color:black;
+    color: antiquewhite;
+    padding: 15px 32px;
+    font-family:"Verdana";
+    font-size: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font: black;
+    font-family: "Helvetica";
+    font-size: 14px;
+}
