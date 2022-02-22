@@ -1,22 +1,17 @@
+/* eslint-disable no-console */
 import validator from './validator.js';
 //evento capturar numero de tarjeta
-let btnSend = document.getElementById("btn");
-btnSend.addEventListener("click", () => {
-  getNumber();
-});
+let btnValidate = document.getElementById("btn");
+btnValidate.addEventListener("click",e=>{
+  e.preventDefault()
+let cardNumber1 = document.getElementById("cardNumber").value;
+console.log(cardNumber1);
 
-//funcion para vaidar digitos del numero de tarjeta
-function getNumber() {
-let cardNumber1 = document.getElementById ("cardNumber").value;
-if (cardNumber1.length <10 ){
-  alert("Ingrese número de tarjeta válido. Debe contener mínimo 10 dígitos ")
-} else if (cardNumber1.length === 16)
-alert ("Gracias por apoyar el arte peruano")
-else {
-  validator.isValid(cardNumber1)
+if (cardNumber1 == ""){
+document.getElementById("formInputError").innerHTML = "Por favor ingrese su número de tarjeta";
 }
-}
-
-
-
-console.log(validator);
+else{
+  let validCardUser=validator.isValid(cardNumber1);
+  console.log(validCardUser);
+  }
+})

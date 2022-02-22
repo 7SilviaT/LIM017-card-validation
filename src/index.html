@@ -13,17 +13,24 @@
       <div class="div-img">
       <img src= "tarjeta.jpg" alt="credit card" height="400" width="400">
       </div>
-      <div class= "form">
+      <form class= "form" id="formulario">
         <label for="nameUser">Nombre y apellidos:</label>
-        <input type="text" id="nameUser" name="nameUser" required=""/><br><br>
+        <input type="text" id="nameUser" name="nameUser" autocomplete="off"/><br><br>
         <label for="phoneNumber">Número de celular:</label>
         <input type="number" id="phoneNumber" name="phoneNumber" autocomplete="off"
         /><br><br>
+        <label for="emailUser">Correo electrónico:</label>
+        <input type="email" id="emailUser" name="emailUser" autocomplete="off"
+        /><br><br>
         <label for="cardNumber">Número de tarjeta:</label>
-        <input type="number" id="cardNumber" name="cardNumber" autocomplete="off"
-        pattern="[0-9]]+" /><br><br>
-        <button id="btn" > FINALIZAR COMPRA </button>
+        <input type="number" class="form_input" id="cardNumber" name="cardNumber" autocomplete="off" required="" />
+        <p id="formInputError"></p>
+        <p id="formInputCorrect"></p>
+          <br><br>
         <br><br>
+      </form>
+      <div>
+        <a href="pageFin.html"><buttom id="btn">Validar tarjeta</buttom></a>
       </div>
       <br>
     <footer>© Todos lo derechos reservados 2022</footer>

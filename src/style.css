@@ -1,11 +1,10 @@
 body {
-  margin: 0;
-  padding: 0;
-  background: url(fondo-watercolour.jpg);
-  background-size: cover;
-  background-position: center;
-  font-family: Verdana;
-  background-attachment: fixed;
+margin: 0;
+padding: 0;
+background: url(fondo-watercolour.jpg);
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
 }
 .div-img {
     display: flex;
@@ -13,7 +12,6 @@ body {
     align-items: center;
 }
 #btn{
-    text-align: center;
     background-color:black;
     color: antiquewhite;
     padding: 15px 32px;
@@ -21,8 +19,8 @@ body {
     font-size: 20px;
     border-radius: 15px;
     display: flex;
-    align-items:center;
     justify-content: center;
+    align-items: center;
 }
 footer{
     display: flex;
