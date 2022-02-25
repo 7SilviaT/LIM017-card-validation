@@ -7,14 +7,48 @@
   </head>
   <body>
     <header></header>
+    <section id="pageOne">
+      <h1 style="text-align:center"> <strong> <u>COLECCIÓN DE LA GUíA DE ARTE LIMA </u></strong></h1>
+      <h2 style="text-align:center"> Piezas artísticas únicas de la colección Guía de Arte Lima </h2>
+      <p>Ofrecemos a los amantes del arte y público interesado piezas únicas de arte de nuestra Colección GUIA DE ARTE LIMA,publicación con 27 años de trayectoria.</p>
+      <p>Con la adquisición de estas piezas de arte plástico,estarán ayudándonos a mantener viva la publicación y a la vez apoyando a artistas peruanos.</p>
+    <div class="container">
+      <div class="paintings" id="paint1">
+      <img src= "pics/cuadro1.jpg" alt="cuadro1" height="200" width="200">
+      </div>
+      <div class="paintings" id="paint2">
+        <img src= "pics/cuadro2.jpg" alt="cuadro2" height="200" width="200">
+      </div>
+      <div class="paintings" id="paint3">
+        <img src= "pics/cuadro3.jpg" alt="cuadro3" height="200" width="200">
+      </div>
+      <div class="paintings" id="paint4">
+        <img src= "pics/cuadro4.jpg" alt="cuadro4" height="200" width="200">
+      </div>
+      <div class="paintings" id="paint5">
+        <img src= "pics/cuadro5.jpg" alt="cuadro5" height="200" width="200">
+      </div>
+      <div class="paintings" id="paint6">
+        <img src= "pics/cuadro6.jpg" alt="cuadro6" height="200" width="200">
+      </div>
+      <div class="paintings" id="paint7">
+        <img src= "pics/cuadro7.jpg" alt="cuadro7" height="200" width="200">
+      </div>
+      <div class="paintings" id="paint8">
+        <img src= "pics/cuadro8.jpg" alt="cuadro8" height="200" width="200">
+      </div>
+    </div>
+    <button id="btn1">Comprar</button>
+  </section>
+  <section style="display:none;" id="pageTwo">
       <h1 style="text-align:center"> <strong> <u>COLECCIÓN DE LA GUíA DE ARTE LIMA </u></strong></h1>
       <h2 style="text-align:center"> Piezas artísticas únicas de la colección Guía de Arte Lima </h2>
       <h3 >Completamos la compra ingresando los datos de su tarjeta de crédito</h3>
       <div class="div-img">
-      <img src= "tarjeta.jpg" alt="credit card" height="400" width="400">
+      <img src= "pics/tarjeta.jpg" alt="credit card" height="400" width="400">
       </div>
       <form class= "form" id="formulario">
-        <label for="nameUser">Nombre y apellidos:</label>
+        <label for="nameUser">Nombre y apellido:</label>
         <input type="text" id="nameUser" name="nameUser" autocomplete="off"/><br><br>
         <label for="phoneNumber">Número de celular:</label>
         <input type="number" id="phoneNumber" name="phoneNumber" autocomplete="off"
@@ -23,16 +57,18 @@
         <input type="email" id="emailUser" name="emailUser" autocomplete="off"
         /><br><br>
         <label for="cardNumber">Número de tarjeta:</label>
-        <input type="number" class="form_input" id="cardNumber" name="cardNumber" autocomplete="off" required="" />
-        <p id="formInputError"></p>
-        <p id="formInputCorrect"></p>
+        <input type="text" class="form_input" id="cardNumber" autocomplete="off" required="" />
+        <p id="formInputError" class="inputWr"></p>
+        <p id="formInputValid" class="inputVa"></p>
           <br><br>
         <br><br>
       </form>
       <div>
-        <a href="pageFin.html"><buttom id="btn">Validar tarjeta</buttom></a>
+      <button id="btn">Validar tarjeta</button>
+      <button id="btn3">Regresar al menu principal</button>
       </div>
       <br>
+    </section>
     <footer>© Todos lo derechos reservados 2022</footer>
     <script src="index.js" type="module"></script>
   </body>

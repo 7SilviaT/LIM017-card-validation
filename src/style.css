@@ -1,20 +1,31 @@
 body {
 margin: 0;
 padding: 0;
-background: url(fondo-watercolour.jpg);
+background: url(pics/fondo-watercolour.jpg);
 background-size: cover;
 background-position: center;
 background-attachment: fixed;
+font-family: Verdana, Arial;
+font-size: 18px;
 }
 .div-img {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#btn{
+.container{
+padding:16px;
+overflow:hidden;
+}
+.paintings{
+margin:16px;
+padding:16px;
+float:left;
+}
+#btn, #btn1,#btn3{
     background-color:black;
     color: antiquewhite;
-    padding: 15px 32px;
+    padding: 15px 15px;
     font-family:"Verdana";
     font-size: 20px;
     border-radius: 15px;
@@ -29,4 +40,12 @@ footer{
     font: black;
     font-family: "Helvetica";
     font-size: 14px;
+}
+.inputWr{
+color:red;
+font-family:"Lucida Sans";
+}
+.inputVa{
+    color:green;
+    font-family:"Lucida Sans";
 }

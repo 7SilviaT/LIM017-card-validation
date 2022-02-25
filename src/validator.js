@@ -1,18 +1,20 @@
 /* eslint-disable no-console */
+
 const validator = {
 isValid: function (cardNumber) {
-    //convertimos a array
-    let arrayFirst=Array.from(cardNumber);
+//convertimos a array
+let arrayFirst=Array.from(cardNumber);
+console.log(arrayFirst);
 //revertir array
 const reversedArray= arrayFirst.reverse();
 console.log (reversedArray);
 //string a numeros
 let arrayTwo =[];
-for (let i=0;i<arrayFirst.length;++i){
-    arrayTwo.push(parseInt(reversedArray[i]));
+for (let i=0;i<arrayFirst.length;i++){
+arrayTwo.push(parseInt(reversedArray[i]));
 }
 console.log(arrayTwo);
-// recorrer el array identificando num en posicion impar para JS(PA)
+// recorrer el array identificando num en posicion impar para JS
 let finalResult = 0;
 for(let i= 0;i<arrayTwo.length;i++){
     if(i % 2!==0){
@@ -33,10 +35,16 @@ console.log(true);
 console.log(false);
     return false;
 }
-
-
-//maskify: function () {
+},
+maskify:function (cardNumber){
+    let maskedNum = Array.from(cardNumber);
+    let stringNum;
+    for(let i = 0; i < maskedNum.length-4; i++){
+    maskedNum[i]= '#';
+    }
+    stringNum= maskedNum.join("");
+    console.log(stringNum);
+    return stringNum;
 }
 }
-
 export default validator;
