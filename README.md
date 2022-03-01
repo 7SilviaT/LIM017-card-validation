@@ -21,9 +21,8 @@ En la actualidad artistas peruanos buscan canales de venta atraves de Museos y G
 Agregar imágenes de los cuadros en venta y centrado de botones.
 
 4. Imágenes del producto final:
-![screenshot](https://github.com/7SilviaT/LIM017-card-validation/blob/main/src/logo.png)
-
-
+![screenshot](https://github.com/7SilviaT/LIM017-card-validation/blob/main/src/pics/screenshot1.jpg)
+![screenshot](https://github.com/7SilviaT/LIM017-card-validation/blob/main/src/pics/screenshot2.jpg)
 
 
 # Tarjeta de crédito válida
