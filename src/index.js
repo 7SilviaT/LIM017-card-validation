@@ -1,4 +1,5 @@
 import validator from "./validator.js";
+// mostrar y ocultar paginas
 const btnValid1= document.getElementById("btn1");
 btnValid1.addEventListener("click",()=>{
 const pageOne=document.getElementById("pageOne");
@@ -26,7 +27,7 @@ btnValidate.addEventListener("click",()=>{
   if (cardNumber===""){
     document.getElementById("formInputError").innerText = " ❌Por favor ingrese su número de tarjeta";
   }else if (validCardUser===true){
-    document.getElementById("formInputError").innerText = "✔️Su tarjeta " + maskedNumber + " es válida.Gracias por su compra";
+    document.getElementById("formInputValid").innerText = "✔️Su tarjeta " + maskedNumber + " es válida.Gracias por su compra";
   }else{
     document.getElementById("formInputError").innerText = "Su tarjeta " + maskedNumber + " es inválida.Intente nuevamente";
   }

@@ -1,4 +1,29 @@
-#Proyecto:Colección de la Guía de Arte Lima
+# Proyecto : Colección de la Guía de Arte Lima
+
+Propuesta de e-commerce para la venta de obras de arte plástica para el público general con aficción al arte y cultura.
+
+* Investigación UX:
+
+- Quiénes son los principales usuarios de producto y objetivos de los mismos?
+Público en general interesados en el Arte Peruano y deseen colaborar adquiriendo piezas de arte únicas.
+
+
+- Cómo crees que el producto que estás creando está resolviendo sus problemas.
+En la actualidad artistas peruanos buscan canales de venta atraves de Museos y Galerias de renombre,sin embargo via internet el radio de compradores y coleccionistas es más vasto.Por lo tanto Colección Guia de Arte propone colocar en exhibición el compilado de obras de artistas peruanos y con ello ayudar la venta directa creador-comprador.
+
+* Proceso:
+
+1. Diagramacion del prototipo ![Figma] https://www.figma.com/file/pNeX6ow4cGNUH3fK9IZEb4/%3CL%3E-card-validation-project-1-Final-prototype?node-id=27%3A15
+
+2. Planeación y asignación de tareas en Notion ![notion] https://www.notion.so/fa7b4d373a0749859414a54fe413fcc6?v=740ed4ed61aa44e580ca6b1da43b8a75
+
+3. Implementar feedbacks recibidos durante sprints:
+Agregar imágenes de los cuadros en venta y centrado de botones.
+
+4. Imágenes del producto final:
+![screenshot](https://github.com/7SilviaT/LIM017-card-validation/blob/main/src/logo.png)
+
+
 
 
 # Tarjeta de crédito válida
