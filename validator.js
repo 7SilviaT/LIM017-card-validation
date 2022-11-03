@@ -14,11 +14,11 @@ for (let i=0;i<arrayFirst.length;i++){
 arrayTwo.push(parseInt(reversedArray[i]));
 }
 console.log(arrayTwo);
-// recorrer el array identificando num en posicion impar(PI) para JS
+// recorrer el array identificando num en posicion impar para JS
 let finalResult = 0;
 for(let i= 0;i<arrayTwo.length;i++){
     if(i % 2!==0){
-// multiplicar*2 los digitos de PI y sumar los digitos mayores a 10
+// multiplicar*2 los digitos de PA y sumar los digitos mayores a 10
         arrayTwo[i] = arrayTwo[i]*2;
         if (arrayTwo[i] >=10){
             arrayTwo[i]=arrayTwo[i]-9;
