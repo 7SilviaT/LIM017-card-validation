@@ -11,18 +11,41 @@
   <body>
     <header>
       <nav>
+        <img src="assets/logo.png" alt="Logo" class="logo">
         <ul class="menu">
           <li><a href="#inicio">Inicio</a></li>
-          <li><a href="#galeria">Tienda</a></li>
+          <li><a href="purchase.html">Tienda</a></li>
           <li><a href="#contacto">Blog</a></li>
-          </ul>
+        </ul>
       </nav>
     </header>
-    <h3>Obras destacadas</h3>
+    <div>
+      <h3>Obras destacadas</h3>
+      <a class="next" onclick="nextSlide()">&gt;</a>
+      </div>
     <section id="inicio">
-      <div class="contenido"></div>
+      <div class="contenido">
+
+        <div class="slider">
+          <div class="slide">
+            <img src="assets/cuadro1.jpg" alt="demo image" />
+          </div>
+          <div class="slide">
+            <img src="assets/cuadro2.jpg" alt="demo image" />
+          </div>
+          <div class="slide">
+            <img src="assets/cuadro3.jpg" alt="demo image" />
+          </div>
+          <div class="slide">
+            <img src="assets/cuadro4.jpg" alt="demo image" />
+          </div>
+
+
+
+        </div>
+      </div>
     </section>
-    <button onclick="navigateToDetails()">Go to Details</button>
+
 <footer>
   <p>© Todos los derechos reservados | Diseñado por:Silvia</p>
 
