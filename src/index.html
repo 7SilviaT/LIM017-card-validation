@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>GAL-coleccion</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Amiko&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amiko&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <nav>
-        <img src="assets/logo.png" alt="Logo" class="logo">
+        <img src="assets/logo.png" alt="Logo" class="logo" />
         <ul class="menu">
           <li><a href="#inicio">Inicio</a></li>
           <li><a href="purchase.html">Tienda</a></li>
@@ -19,38 +22,58 @@
         </ul>
       </nav>
     </header>
-    <div>
-      <h3>Obras destacadas</h3>
-      <a class="next" onclick="nextSlide()">&gt;</a>
+    <main>
+      <div><h3 class="title">Obras destacadas</h3></div>
+      <div class="carousel">
+        <article class="card">
+          <img src="assets/cuadro2.jpg" alt="Obra 2" class="painting-image" />
+          <h4>Titulo de obra</h4>
+          <p>Autor</p>
+          <p>Tecnica</p>
+          <div class="card-bottom">
+            <p>Precio</p>
+            <button>Ver más</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="assets/cuadro3.jpg" alt="Obra 3" class="painting-image" />
+          <h4>Titulo de obra</h4>
+          <p>Autor</p>
+          <p>Tecnica</p>
+          <div class="card-bottom">
+            <p>Precio</p>
+            <button>Ver más</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="assets/cuadro4.jpg" alt="Obra 4" class="painting-image" />
+          <h4>Titulo de obra</h4>
+          <p>Autor</p>
+          <p>Tecnica</p>
+          <div class="card-bottom">
+            <p>Precio</p>
+            <button>Ver más</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="assets/cuadro5.jpg" alt="Obra 5" class="painting-image" />
+          <h4>Titulo de obra</h4>
+          <p>Autor</p>
+          <p>Tecnica</p>
+          <div class="card-bottom">
+            <p>Precio</p>
+            <button>Ver más</button>
+          </div>
+        </article>
       </div>
-    <section id="inicio">
-      <div class="contenido">
+      <div class="arrow-section"></div>
+    </main>
 
-        <div class="slider">
-          <div class="slide">
-            <img src="assets/cuadro1.jpg" alt="demo image" />
-          </div>
-          <div class="slide">
-            <img src="assets/cuadro2.jpg" alt="demo image" />
-          </div>
-          <div class="slide">
-            <img src="assets/cuadro3.jpg" alt="demo image" />
-          </div>
-          <div class="slide">
-            <img src="assets/cuadro4.jpg" alt="demo image" />
-          </div>
-
-
-
-        </div>
-      </div>
-    </section>
-
-<footer>
-  <p>© Todos los derechos reservados | Diseñado por:Silvia</p>
-
-</footer>
+    <footer>
+      <div class="contact-container"></div>
+      <div class="social-media-list"></div>
+      <p>© Todos los derechos reservados | Diseñado por:Silvia</p>
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
-
