@@ -9,6 +9,14 @@ body {
   display: flex;
   flex-direction: column;
 }
+main {
+  flex: 1 0 auto;
+  display: flex; /* Add this line */
+  justify-content: center; /* Add this line */
+  align-items: center;
+  flex-direction: column; /* Add this line */
+}
+
 .title {
   font-weight: 400;
   font-style: normal;
@@ -66,9 +74,12 @@ nav {
 
 footer {
   height: 200px;
-  margin-top: auto;
   background: #000;
   width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
 }
 footer p {
   color: beige;
