@@ -5,11 +5,11 @@ Propuesta de e-commerce para la venta de obras de arte plástica para el públic
 * Investigación UX:
 
 - Quiénes son los principales usuarios de producto y objetivos de los mismos?
-Público en general interesados en el Arte Peruano y deseen colaborar adquiriendo piezas de arte únicas.
+Público en general interesados en el Arte Peruano y deseen adquirir piezas de arte únicas.
 
 
 - Cómo crees que el producto que estás creando está resolviendo sus problemas.
-En la actualidad artistas peruanos buscan canales de venta atraves de Museos y Galerias de renombre,sin embargo via internet el radio de compradores y coleccionistas es más vasto.Por lo tanto Colección Guia de Arte propone colocar en exhibición el compilado de obras de artistas peruanos y con ello ayudar la venta directa creador-comprador.
+En la actualidad artistas peruanos buscan canales de venta atraves de Museos y Galerias de renombre,sin embargo el radio de compradores y coleccionistas es más vasto, via internet.Por lo tanto Colección Guia de Arte propone colocar en exhibición el compilado de obras de artistas peruanos y con ello ayudar la venta directa creador-comprador.
 
 * Proceso:
 
@@ -17,8 +17,7 @@ En la actualidad artistas peruanos buscan canales de venta atraves de Museos y G
 
 2. Planeación y asignación de tareas en Notion ![notion] https://www.notion.so/fa7b4d373a0749859414a54fe413fcc6?v=740ed4ed61aa44e580ca6b1da43b8a75
 
-3. Implementar feedbacks recibidos durante sprints:
-Agregar imágenes de los cuadros en venta y centrado de botones.
+3. Implementar feedbacks recibidos durante sprints
 
 4. Imágenes del producto final:
 ![screenshot](https://github.com/7SilviaT/LIM017-card-validation/blob/main/src/pics/screenshot1.jpg)
@@ -68,7 +67,7 @@ necesitaría validar una tarjeta de crédito y pensar en cómo debe ser esa
 experiencia de uso (qué pantallas, explicaciones, mensajes, colores, ¿marca?)
 etc.
 
-Trabajando en parejas aprenderán a construir una aplicación web que interactuará
+Trabajando individualmente aprenderán a construir una aplicación web que interactuará
 con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
 como tecnologías.
 
@@ -386,7 +385,7 @@ Las secciones llamadas _Hacker Edition_ son **opcionales**. Si **terminaste**
 con todo lo anterior y te queda tiempo, intenta completarlas. Así podrás
 profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
 
-En esta versión Hacker edition puedes además de validar si el número de la 
+En esta versión Hacker edition puedes además de validar si el número de la
 tarjeta es válida, mostrar la [franquicia](https://es.wikipedia.org/wiki/N%C3%BAmero_de_tarjeta_bancaria) de la tarjeta (ej: Visa, MasterCard, etc)
 usando estas [reglas de validación](https://stevemorse.org/ssn/cc.html).
 
@@ -481,13 +480,13 @@ usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
 
 Un "superpoder" que esperamos puedas desarrollar durante el bootcamp es el de definir "mini-proyectos" que te acerquen paso a paso a la solución del "gran proyecto". Es el equvalente a comenzar armando esquinas o bordes del rompecabezas/puzzle sin saber necesariamente cómo encajarán al final. Déjate llevar y explora. Estas son algunas sugerencias:
 
-**"validar" que el input sea numérico**  
+**"validar" que el input sea numérico**
 Crea una interfaz simple con 1 caja de texto y un botón. Si escribo algo en la caja de texto 1 y le doy click al botón, quiero que valide que sea sólo números y que no esté vacío.<
 
-**"validar" si la tarjeta de crédito es válida**  
+**"validar" si la tarjeta de crédito es válida**
 Cuando de clic en el botón, debe indicarnos si la tarjeta es válida o no.
 
-**"mostrar" sólo los últimos 4 números**  
+**"mostrar" sólo los últimos 4 números**
 Cuando de clic en el botón, sólo deben ser visibles los últimos 4 número, es decir, debe ocultar los otros números (ej: si escribo 12304589, debe salir después ####4589).
 
 ### Recursos y temas relacionados

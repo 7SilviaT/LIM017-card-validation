@@ -11,10 +11,10 @@ body {
 }
 main {
   flex: 1 0 auto;
-  display: flex; /* Add this line */
-  justify-content: center; /* Add this line */
+  display: flex;
+  justify-content: center;
   align-items: center;
-  flex-direction: column; /* Add this line */
+  flex-direction: column; 
 }
 
 .title {
