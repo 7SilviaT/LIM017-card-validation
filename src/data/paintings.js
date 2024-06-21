@@ -1,0 +1,70 @@
+
+export default {
+  "owner": "Guia de Arte Lima",
+  "paintings": [
+    {
+      "id": 1,
+      "title": "Trayectoria",
+      "artist":"Percy Narvaez",
+      "description": "Óleo sobre tela, 135 x 135 cm",
+      "image": "/src/assets/trayectoria.jpg",
+      "price": 1000,
+    },
+    {
+      "id": 2,
+      "title": "Papayas",
+      "artist":"Svrichaqvi",
+      "description": "Óleo sobre tela, 70 x70 cm",
+      "image": "/src/assets/papayas.jpg",
+      "price": 1800,
+    },
+    {
+      "id": 3,
+      "title": "Aguas Míticas",
+      "artist":"Mónica Beatriz Ccalla",
+      "description": "Acuarela sobre cartulina algodón, 60 x60 cm",
+      "image": "/src/assets/aguasMiticas.jpg",
+      "price": 500,
+    },
+    {
+      "id": 4,
+      "title": "Herencias Ancestrales",
+      "artist":"Kiro Sumerinde",
+      "description": "Óleo sobre tela, 80 x100 cm",
+      "image": "/src/assets/herencias.jpg",
+      "price": 300,
+    },
+    {
+      "id": 5,
+      "title": "Amanecer",
+      "artist":"Lenin Vásquez",
+      "description": "Óleo sobre tela, 90 x 110 cm",
+      "image": "/src/assets/amanecer.jpg",
+      "price": 1300,
+    },
+    {
+      "id": 6,
+      "title": "Canto I",
+      "artist":"Delfina Nina",
+      "description": "Óleo sobre tela, 60 x 50 cm",
+      "image": "/src/assets/canto.jpg",
+      "price": 1350,
+    },
+    {
+      "id": 7,
+      "title": "Alta tensión",
+      "artist":"John Chauca",
+      "description": "Collage, lápiz y témpera sobre papel, 55 x 42 cm",
+      "image": "/src/assets/chauca.jpg",
+      "price": 1000,
+    },
+    {
+      "id": 8,
+      "title": "Sin título",
+      "artist":"Daniel Vargas",
+      "description": "Óleo sobre tela, 70 x 90 cm",
+      "image": "/src/assets/noEntre.jpg",
+      "price": 1000,
+    },
+  ]
+};
