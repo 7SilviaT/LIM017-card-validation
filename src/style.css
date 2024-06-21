@@ -1,86 +1,94 @@
+
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Amiko";
-}
-
-body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-main {
-  flex: 1 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; 
-}
-
-.title {
-  font-weight: 400;
-  font-style: normal;
-  font-size: 52px;
-  padding-left: 5%;
-}
-
-img {
-  width: 100%;
-  height: auto;
 }
 
 header {
   background-color: transparent;
-  padding: 10px 0;
+  padding: 10px 20px;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 20px;
 }
 
-.logo {
-  width: 120px;
-  padding-left: 5%;
+.logo img {
+  height: 100%;
 }
 
-.menu {
-  list-style: none;
+.nav-links {
+  list-style-type: none;
   display: flex;
-  padding-right: 5%;
 }
 
-.menu li {
-  margin-left: 30px;
+.nav-links li {
+  margin-left: 20px;
 }
 
-.menu a {
-  color: black;
+.nav-links li a {
+  color: #000;
   text-decoration: none;
-}
-.carousel {
-  display: flex;
-  flex-direction: row;
-  padding-left: 5%;
-  justify-content: space-between;
-}
-.painting-image {
-  width: 230px;
-  height: 245px;
-  object-fit: cover;
+  font-size: 20px;
+  padding: 5px 10px;
 }
 
-footer {
-  height: 200px;
-  background: #000;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  z-index: 10;
+.nav-links li a:hover {
+  text-decoration: underline;
 }
-footer p {
-  color: beige;
+
+.home-title {
+  padding-left: 40px;
+  margin-top: 32px;
+  font-size: 45px;
+}
+.slider {
+  position: relative;
+  width: 80%;
+  max-width: 600px;
+  overflow: hidden;
+  border: 2px solid #ddd;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.slide img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+button.prev {
+  left: 10px;
+}
+
+button.next {
+  right: 10px;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }

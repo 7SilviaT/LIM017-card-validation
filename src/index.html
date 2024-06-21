@@ -13,12 +13,18 @@
   </head>
   <body>
     <div id="root">
-      <nav id="main-nav">
-        <img src="assets/logo.png" alt="Logo" class="logo" />
-        <a href="/" onclick="route()">Inicio</a>
-        <a href="/store" onclick="route()">Tienda</a>
-        <a href="/about" onclick="route()">Nosotros</a>
-      </nav>
+      <header>
+        <nav>
+          <div class="logo">
+            <img src="assets/logoColeccionGAL.png" alt="Logo" class="logo" />
+          </div>
+          <ul class="nav-links">
+            <li><a href="/" onclick="route()">Inicio</a></li>
+            <li><a href="/store" onclick="route()">Tienda</a></li>
+            <li><a href="/about" onclick="route()">Nosotros</a></li>
+          </ul>
+        </nav>
+      </header>
       <div id="main-page"></div>
     </div>
     <script src="router/router.js" type="module"></script>
